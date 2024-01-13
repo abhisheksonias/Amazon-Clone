@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    font-family: arial;
+    /* border: border-box; */
+}
+
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.border:hover {
+    border: 1.2px solid white;
+    border-radius: 5px;
+}
+
+/* ...............Box 1 ...............*/
+.logoborder {
+    width: 110px;
+    height: 55px;
+}
+
+.navlogo {
+    height: 30px;
+    width: 100px;
+    position: absolute;
+    background-image: url("logo.png");
+    background-size: cover;
+    top: 27%;
+}
+
+.logoborder:hover {
+    border: 1.5px solid white;
+    border-radius: 5px;
+}
+
+/* .................box 2................. */
+
+.add {
+    color: #ffffff;
+    font-size: .85rem;
+    margin-left: 20px;
+}
+
+.add2 {
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add_icon {
+    display: flex;
+    align-items: center;
+}
+
+/* ......................box 3......................... */
+
+.nav_search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ea8000;
+    width: 920px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.nav_search:hover {
+    border: 2px solid orange;
+}
+
+.search-select {
+    background-color: #e0dede;
+    width: 50px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    border: none;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search_icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #0f1111;
+}
+
+/* ...................Box 4.................. */
+
+span {
+    font-size: 0.7rem;
+}
+
+.nav2 {
+    font-size: 0.85;
+    font-weight: 700;
+}
+
+/* ................Box 5................ */
+
+.nav-cart i {
+    font-size: 30px;
+}
+
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* ..............panel............... */
+.border2:hover {
+    border: 1.5px solid white;
+    border-radius: 3px;
+}
+
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    position: relative;
+    display: flex;
+}
+
+.panel-all {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.panel-items {
+    width: 80%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-right: 40%;
+    justify-content: center;
+}
+
+.panel-a {
+    height: 40px;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    justify-content: center;
+}
+
+.panel-b {
+    height: 40px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    justify-content: center;
+}
+
+.panel-c {
+    height: 40px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    justify-content: center;
+}
+
+.panel-d {
+    height: 40px;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    justify-content: center;
+}
+
+.panel-e {
+    height: 40px;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    justify-content: center;
+}
+
+.panel-f {
+    width: 75%;
+}
+
+.panel-deals {
+    height: 40px;
+    width: 23%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/* ....................main............ */
+.main {
+    background-image: url("main.jpg");
+    height: 330px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.main-message {
+    background-color: #e0dede;
+    color: #0f1111;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    position: relative;
+    width: 97%;
+    margin-bottom: 40px;
+}
+
+.main-message a {
+    color: #007185;
+}
+
+/* ................shop section............ */
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.box {
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.img{
+    background-size: cover;
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content p {
+   color: #007185;
+}
+
+/* ...................Footer...................... */
+footer{
+    margin-top: 15px;
+}
+.foot1{
+    background-color: #334354;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.foot2{
+    background-color: #222f3d;
+    padding-left: 11%;
+    padding-right: 11%;
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul p {
+    margin-top: 45px;
+    font-weight: 700;
+}
+
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+.foot3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    background-image: url("logo.png");
+    background-size: cover;
+    height: 30px;
+    width: 100px;
+}
+
+.foot4{
+    background-color: #0f1111;
+    height: 80px;
+    color: white; 
+}
+
+.pages{
+    font-size: 0.7rem;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.copyright{
+    font-size: 0.7rem;
+    text-align: center;
+}
